@@ -42,6 +42,7 @@
 
 
 <h3> Additional Libraries Used </h3>
+In this section, I'll share a list of all supporting libraries and their role in the project.
 
 <h3> Code Snippet</h3>
 This section will include a brief code snippet of functionality that I'm proud of in a brief description.
@@ -52,3 +53,4 @@ function myCoolThing() {
  ```   
 
 <h3> Issues and Resolutions</h3>
+I will use this section to list all of the major issues I encountered and their resolution.
