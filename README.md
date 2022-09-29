@@ -1,4 +1,6 @@
-<h3> Project Schedule </h3>
+# Ella's Portfolio 
+
+## Project Schedule 
 
 | Day | Deliverable    | Status |
 | :---:   | :---: | :---: | 
@@ -9,11 +11,11 @@
 | Day 5 | Final Touches	    | Incomplete | 
 | Day 6 | Present    | Incomplete |
 
-<h3> Wireframe </h3>
 
-<h3> Time/Priority Matrix </h3>
+## Wireframe 
 
-<h5> MVP </h5>
+## Time/Priority Matrix 
+#### MVP 
 
 | Component | Priority  | Estimated Time  | Actual Time | 
 | ------- | --- | --- | ------- |
@@ -27,8 +29,7 @@
 | Social Media Icons	 | L | 1hr | hr | 
 | Total | H | 15.5hrs | hr | 
 
-
-<h5> PostMPV </h5>
+#### PostMPV 
 
 | Component | Priority  | Estimated Time  | Actual Time | 
 | ------- | --- | --- | ------- |
@@ -40,11 +41,10 @@
 | Make own icon | L | 4hr | hr |
 | Total | H | 20hrs| hrs |
 
-
-<h3> Additional Libraries Used </h3>
+## Additional Libraries Used 
 In this section, I'll share a list of all supporting libraries and their role in the project.
 
-<h3> Code Snippet</h3>
+## Code Snippet
 This section will include a brief code snippet of functionality that I'm proud of in a brief description.
 
  ```
@@ -52,5 +52,5 @@ function myCoolThing() {
 	// here is the code to do something really cool!
  ```   
 
-<h3> Issues and Resolutions</h3>
+## Issues and Resolutions
 I will use this section to list all of the major issues I encountered and their resolution.
