@@ -29,8 +29,9 @@
 
 
 <h5> PostMPV </h5>
-| Component | Priority | Estimated Time | Actual Time |
-| :---: | :---: |  :---: | :---: | 
+
+| Component | Priority  | Estimated Time  | Actual Time | 
+| ------- | --- | --- | ------- |
 | Project Hover | L | 3hr | -hr | hr |
 | Banner letters wiggle | L | 1hr | hr |
 | Interactive Banner | M | 4hr | hr |
@@ -38,6 +39,7 @@
 | Bootstrap | H | 4hr | hr |
 | Make own icon | L | 4hr | hr |
 | Total | H | 20hrs| hrs |
+
 
 <h3> Additional Libraries Used </h3>
 
