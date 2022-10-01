@@ -1,10 +1,17 @@
 body {
   background-color: #ded0c2;
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
-
 }
 
-.sect1 {
+.title {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#sect1 {
   text-align: center;
   padding: 0;
   margin: 0;
@@ -21,15 +28,15 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-   /* background-color: lightgoldenrodyellow; */
+  display: flex;
   overflow: hidden;
+  justify-content: flex-end;
  }
  
  /* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
+  display: flex;
   color: black;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 15px;
@@ -39,7 +46,6 @@ body {
 .topnav a:hover {
   background-color: #ddd;
   font-weight: bold;
-
    /* color: black; */
  }
  
@@ -49,16 +55,27 @@ body {
   color: black;
  }
 
-.flex-container {
+#aboutBlock {
+  text-align: center;
+ }
+
+#contactInfo {
+  text-align: center;
+}
+
+ /* Placeholders for actual projects completed in class */
+#flex-projects {
   display: flex;
   margin: 20px;
   flex-wrap: nowrap;
+  justify-content: center;
 }
 
-.flex-container > div {
+#flex-projects > div {
   padding: 40px;
   margin: 10px;
   background-color: #a59284;
   color: white;
     width: 80px; 
 }
+
