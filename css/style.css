@@ -1,47 +1,46 @@
 body {
-   background-color: #ded0c2;
-   font-family: Montserrat, sans-serif;
+  background-color: #ded0c2;
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;}
+
+.sect1 {
+  text-align: center;
 }
 
 .nameIntro {
-   font-family: Source sans pro, sans-serif;
-   font-size: 50px;
-   text-align: center;
-   font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .summary {
-   font-family: Montserrat, sans-serif;
-   text-align: center;
-   font-size: 25px;
+  font-size: 24px;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
    /* background-color: lightgoldenrodyellow; */
-   overflow: hidden;
+  overflow: hidden;
  }
  
  /* Style the links inside the navigation bar */
- .topnav a {
-   float: right;
-   color: black;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 15px;
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
  }
  
  /* Change the color of links on hover */
- .topnav a:hover {
-   background-color: #ddd;
-   font-weight: bold;
+.topnav a:hover {
+  background-color: #ddd;
+  font-weight: bold;
 
    /* color: black; */
  }
  
  /* Add a color to the active/current link */
- .topnav a.active {
-   background-color: #ddd;
-   color: black;
+.topnav a.active {
+  background-color: #ddd;
+  color: black;
  }
