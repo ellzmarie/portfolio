@@ -1,13 +1,17 @@
 body {
   background-color: #ded0c2;
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;}
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+
+}
 
 .sect1 {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .nameIntro {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -44,3 +48,17 @@ body {
   background-color: #ddd;
   color: black;
  }
+
+.flex-container {
+  display: flex;
+  margin: 20px;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  padding: 40px;
+  margin: 10px;
+  background-color: #a59284;
+  color: white;
+    width: 80px; 
+}
