@@ -1,46 +1,44 @@
 body {
   background-color: #ebebeb;
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
-  margin: 0;
+  margin: 0px; 
   padding: 100px;
 }
 
-.title {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  font-size: 25px;
-  font-weight: bold;
-  color: #3c3635;
-}
-.section {
-  display: flex;
-  justify-content: center;
-  padding: 100px; 
-}
-
 .section1 {
+  /* display: flex; */
   width: auto;
   height: auto;
   color: #3c3635;
-  /* margin: 0; */
+  margin: 10px;
   padding: 100px; 
+  text-align: center;
+  /* justify-content: center; */
+
 }
 
 .nameIntro {
   font-size: 40px;
   font-weight: bold;
-  color: #3c3635;
-  /* display: flex;
-  justify-content: center; */
+  /* padding: 50px; 
+  margin: 0; */
   text-align: center;
 }
 
 .summary {
-  font-size: 24px;
-  /* display: flex;
-  justify-content: center; */
+  font-size: 24px; 
+  /* padding: 50px; 
+  margin: 0; */
   text-align: center;
+}
+
+.title {
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: #3c3635;
 }
 
 /* Add a black background color to the top navigation */
@@ -49,7 +47,6 @@ body {
   overflow: hidden;
   justify-content: flex-end;
   /* background-color: #cbcac5; */
-  overflow: hidden;
   position: fixed;
   top: 0;
   width: 90%;
@@ -77,22 +74,43 @@ body {
   color: black;
  }
 
-#aboutBlock {
+.section {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  color: #3c3635;
+  /* margin: 0px; */
+  /* padding: 20px;  */
+}
+
+#about {
   text-align: center;
+  /* padding: 100px;
+  width: auto;
+  height: auto; 
+  margin: 0; 
+  background-color: #fbf3f0; */
  }
 
 #contactInfo {
   text-align: center;
+  /* padding: 100px;
+  width: auto;
+  height: auto;
+  margin: 0; */
 }
 
  /* Placeholders for actual projects completed in class */
-#flex-projects {
+/* #flex-projects {
   display: flex;
-  margin: 20px;
-  /* flex-wrap: nowrap; */
+  padding: 0; 
+  width: auto;
+  height: auto;
   justify-content: center;
-  padding: 100px; 
-}
+  flex-wrap: nowrap;
+  margin: 0;
+} */
 
 #flex-projects > div {
   padding: 40px;
@@ -102,24 +120,17 @@ body {
     width: 80px; 
 }
 
-.flex-container {
+/* .flex-projects {
   display: flex;
-  flex-direction: row;
-}
+  flex-wrap: wrap;
+} */
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
-
-.footer {
+/* .footer {
   display: flex;
   overflow: hidden;
   justify-content: center;
   /* flex-direction: row; */
-}
+} */
 
 /* .footer a {
   display: flex;
@@ -145,7 +156,7 @@ img {
   border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
-  width: 20px; /* Set a small width */
+  width: 40px; /* Set a small width */
 }
 
 /* Add a hover effect (blue shadow) */
@@ -158,3 +169,25 @@ hr.solid {
   border-top: 2px solid #3c3635;
   width: 90px;
 }
+
+.contactInfo {
+  padding: 0; 
+  margin: 0;  
+  width: 0;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 700px) {
+  body {
+    width: 100%
+  }
+  .topnav {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+#flex-projects {
+  flex-wrap: wrap;
+}
+
+}  
