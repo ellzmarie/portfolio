@@ -44,13 +44,18 @@ body {
   color: #3c3635;
 }
 
+/* Nav menu*/
 .topnav {
+  background: #cfc5bb;
   display: flex;
   overflow: hidden;
-  justify-content: flex-end;
   position: fixed;
-  top: 0;
-  width: 90%;
+  top: 0px;
+  right: 0;
+  justify-content: right;
+  /* padding: 0;
+  margin: 0; */
+  width: 100%;
  }
  
 .topnav a {
@@ -71,6 +76,7 @@ body {
   color: black;
  }
 
+/* 3 sections */ 
 .section {
   display: flex;
   justify-content: center;
@@ -147,6 +153,7 @@ hr.solid {
   padding: 30px;
 }
 
+/* Contact form */
 input[type=text], select, textarea {
   width: 100%; 
   padding: 10px; 
@@ -173,7 +180,7 @@ input[type=submit]:hover {
 
 .contact-form {
   border-radius: 5px;
-  background-color: #cfc5bb;
+  background-color: #ac9b91;
   padding: 20px;
 }
 
@@ -185,6 +192,8 @@ input[type=submit]:hover {
     display: flex;
     justify-content: center;
     width: auto;
+    right: 0;
+    left: 0;
   }
   #flex-projects {
     flex-wrap: wrap;
