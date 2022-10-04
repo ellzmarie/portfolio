@@ -17,19 +17,34 @@
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
+
+      <!-- Hamburger menu -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
   </div>
 
   <div class="section1" id="sect1">
-    <p class="nameIntro">HEY, THERE! I'M ELLIE-MARIE.</p>
-    <p class="summary">Software Engineer & Artist</p>
+    <!-- <img src="img/alper-guzeler.jpg" alt="pink-render" id="pink-render"> -->
+    <h1 class="nameIntro">HEY, THERE! I'M ELLIE-MARIE.</h1>
+    <p class="summary">Software Engineer | Singer</p>
   </div>    
 
   <div class="title" id="about">ABOUT
     <hr class="solid" id="solidAbout">
     <div class="section" id='aboutBlock'>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
-    </p>
+      <p>
+        I am a proud first-generation Filipina-American mom who loves to sing and truly values empathy, diversity and inclusivity.
+      </p> 
+
+      <p>
+        With seven years of experience in the tech world, specifically in the Customer Experience / Support field, I’ve learned the importance of clear communication, flexibility, and innovative, data-driven results. 
+      </p>
+      
+      <p>
+        My passion for Software Development was sparked when my previous employer asked me to break things and find bugs on an app. From that experince, I was bit by the coding bug and was inspired to learn how to program. To this day, I still enjoy it! My goal is to find a remote role that will help me learn and grow as a full-time Software Engineer.
+      </p>
+      </div>
   </div>
 
   <div class="title" id="projects">PROJECTS
@@ -44,11 +59,27 @@
 
   <div class="title" id="contact">CONTACT
     <hr class="solid">
-    <div class="section" id="contactInfo">
-      <p>
-        Let's Connect! Feel free to email me at elliematutisdigal@gmail.com.
-      </p>
-    </div>
+    <p class="section" id="contactInfo">
+        Let's Connect! Feel free to fill out the contact form below or email me at elliematutisdigal@gmail.com.
+    </p>
+  </div>
+
+  <div class="contact-form">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
   </div>
 
   <div class="footer">
@@ -57,7 +88,12 @@
       <img src="img/linkedin.png" alt="LinkedIn" href="https://www.linkedin.com/in/elliematutis-digal/">
       <img src="img/soundcloud.png" alt="soundcloud" href="https://soundcloud.com/schaemusic">
     </div>
+    <hr class="solidFooter">
+    <div class="footerMadeBy">
+      <a>Made with ♥ by Ellie Matutis-Digal.</a>
+    </div>
   </div>
+
 
 </body>
 </html>
