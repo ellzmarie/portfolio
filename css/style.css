@@ -98,10 +98,23 @@ body {
   color: #3c3635;
   text-align: center;
   justify-content: center;
+  width: auto;
+  height: auto;
+  left: auto;
+  right: auto;
 }
-/* .Section {
+.section {
   display: flex;
   justify-content: center; 
+  width: auto;
+  height: auto;
+  left: auto;
+  right: auto;
+}
+
+/* #aboutTitle {
+  text-align: center;
+  justify-content: center;
   width: auto;
   height: auto;
   left: auto;
@@ -206,6 +219,20 @@ hr.solid {
   width: 40%;
 }
 
+/*Flexbox Dummies*/
+.flexDummies{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.flexDummies > div{
+  color: white;
+  font-size: 10px;
+  padding: 40px;
+  background-color: #a59284;
+  margin: 10px;
+  border: 1px solid grey;
+}
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 576px) {
@@ -241,7 +268,7 @@ hr.solid {
     font-weight: bold;
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 55%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -253,7 +280,7 @@ hr.solid {
     font-size: 18px; 
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 55%;
     transform: translate(-50%, -50%);
     z-index: 2;
