@@ -18,7 +18,7 @@ body {
 #pink-render {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 80%;
   height: 100%;
   width: 100%;
   padding: 0;
@@ -292,10 +292,11 @@ input[type=submit]:hover {
 
   #aboutBlock {
     font-size: 13px;
-  }
-  
-
+  }  
 }  
+
+
+
 
 
 
