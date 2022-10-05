@@ -2,7 +2,6 @@ const submitBtn = document.querySelector("button");
 const inputBox = document.querySelector(".input");
 const weatherForCity = document.querySelector("#weatherFor")
 const getTemp = document.querySelector("#temp") 
-const weatherDesc = document.querySelector("#weatherDesc")
 
 submitBtn.addEventListener("click", (e) => {
     e.preventDefault()
@@ -12,7 +11,6 @@ submitBtn.addEventListener("click", (e) => {
     .then((data) => {
     weatherForCity.innerText = "Current City: " + data.name 
     getTemp.innerText = "Temperature outside: " + data.main.temp + "F"
-    weatherDesc.innerText = "Weather: " + data.weather[0].description
     })
     .catch((err) => console.log(err));
 });
