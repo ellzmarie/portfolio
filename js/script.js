@@ -1,3 +1,21 @@
+// const hamburger = document.querySelector(".hamburger")
+// const navMenu = document.querySelector(".topNav")
+
+// hamburger.addEventListener("click", () => {
+//     hamburger.classList.toggle("active");
+//     navMenu.classList.toggle("active");
+// })
+
+// document.querySelectorAll("topNav").forEach(n => n.addEventListener("click", () => {
+//     hamburger.classList.remove("active");
+//     navMenu.classList.remove("active");
+// }))
+
+
+
+
+
+
 document.addEventListener("", function() {
     let firstName = document.querySelector('fname')
     let lastName = document.querySelector('lname')
