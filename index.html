@@ -10,85 +10,89 @@
 </head>
   
 <body>
-
-  <header class="header">
     <div class="topnav">
-    <button type="button" id="mainMenu" tabindex="-1" hidden></button>
-      <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
-    </header>
+    </div>
 
-
-  <div class="section1" id="sect1">
-    <img src="img/alper-guzeler.jpg" alt="pink-render" id="pink-render">
-    <h1 class="nameIntro">HEY, THERE! I'M ELLIE-MARIE.</h1>
-    <p class="ses">Software Engineer | Singer</p>
-  </div>    
+  <div class="hero-image">
+    <div class="section1" id="sect1">
+      <h1 class="nameIntro">HEY, THERE! I'M ELLIE-MARIE.</h1>
+      <p class="ses">Software Engineer | Singer</p>
+      <img src="img/alper-guzeler.jpg" alt="pink-render" id="pink-render">
+    </div>    
+  </div>
 
   <div class="title" id="about">ABOUT ME
     <hr class="solid" id="solidAbout">
     <div class="section" id='aboutBlock'>
       <p>
-        I am a proud first-generation Filipina-American mom who truly values empathy, diversity and inclusivity.
-      </p> 
-
+      I am a proud first-generation Filipina-American mom who truly values empathy, diversity and inclusivity.
+      </p>  
       <p>
         With seven years of experience in the tech world, specifically in the Customer Experience / Support field, I’ve learned the importance of clear communication, flexibility, and innovative, data-driven results. 
       </p>
-      
       <p>
         As a life long singer, my passion for Software Development sparked when my previous employer asked me to break things and find bugs on their app. From that experince, I was bit by the coding bug and was inspired to learn how to code. To this day, I still have fun building things, breaking things and solving problems! My goal is to find a remote role that will help me learn and grow as a full-time Software Engineer.
       </p>
-      </div>
-  </div>
+      <!-- </div> -->
+
 
   <div class="title" id="projects">PROJECTS
     <hr class="solid">
-    <p id="projectsSection">Click below to check out some projects!</p>
-  <div class="section" id="flex-projects">   
-    <!-- Weather App -->
-    <a href="https://github.com/ellzmarie/weather-app">
-      <img src="img/weather-app.png" class="imgProjects" id="weatherIcon">
-    </a>
-    <!-- Tic-Tac-Toe -->
-    <a href="">
-      <img src="img/tic-tac-toe.png" class="imgProjects" id="tttIcon">
-    </a>
-      <!-- <p>Project 3</p>
-      <img src="img/laptop.png" class="imgProjects" id="p3Icon"> -->
-    <!-- <p>Project 4</p>
-      <img src="img/laptop.png" class="imgProjects" id="p4Icon"> -->
+    <div class="Section" id="flex-projects">
+      <!-- Weather App -->
+    <div class="flexText">
+      <h6>Check out my weather project!</h6>
+    </div>
+    <div class="flexImage">
+      <a href="https://github.com/ellzmarie/weather-app">
+      <img src="img/weather-app.png" id="weatherImg">
+      </a>
+    </div>
+     
+    <!-- GIPHY -->
+    <br><div class="flexText">
+      <h6>SURPRISE! Here's a special GIF just for you!</h6>
+    </div>
+    <div class="flexImage">
+      <img src="https://media2.giphy.com/media/uSYQsJQWEv6O4/giphy.gif?cid=53cc5442y8pz8xosexuuq5jmeodcvhov1bn4h1nu2gkt0qrt&rid=giphy.gif&ct=g" alt="panda gif" id="pandaIcon">
+      <br>
+      <button class="giphButton" type="btn" id="randomEndpoint">Click here for more giphs</button> 
+      </br>
+    </div>
+
+    </div>
   </div>
-  </div>
-  
+
+
 
   <div class="title" id="contact">CONTACT
     <hr class="solid">
     <p class="section" id="contactInfo">
-        Let's Connect! Feel free to email me at elliematutisdigal@gmail.com.
+      Let's Connect! Feel free to email me at elliematutisdigal@gmail.com.
     </p>
-  </div>
-
-  <div class="footer">
     <div class="socials">
-    <a href="https://github.com/ellzmarie">
-      <img src="img/github-logo-silhouette-in-a-square.png" alt="Github">
-    </a>
-    <a href="https://www.linkedin.com/in/elliematutis-digal/">
-      <img src="img/linkedin.png" alt="LinkedIn">
-    </a>
-
-    <a href="https://soundcloud.com/schaemusic">
-      <img src="img/soundcloud.png" alt="soundcloud">
-    </a>
-
+      <a href="https://github.com/ellzmarie">
+        <img src="img/github-logo-silhouette-in-a-square.png" alt="Github">
+      </a>
+      <a href="https://www.linkedin.com/in/elliematutis-digal/">
+        <img src="img/linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://soundcloud.com/schaemusic">
+        <img src="img/soundcloud.png" alt="soundcloud">
+      </a>
     </div>
+  </div>
+  
+  <div class="footer"> 
     <hr class="solidFooter">
+    <br>
     <div class="footerMadeBy">
       <a>Made with ♥ by Ellie Matutis-Digal.</a>
     </div>
+    </br>
   </div>
 
 
