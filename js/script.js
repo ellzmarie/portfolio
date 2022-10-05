@@ -1,6 +1,6 @@
-let giphyButton = document.querySelector('.giphButton')
+let giphButton = document.querySelector('.giphButton')
 
-giphyButton.addEventListener('click', (e) => {
+giphButton.addEventListener('click', (e) => {
     e.preventDefault()
     fetch(`api.giphy.com/v1/gifs/random`)
 })
