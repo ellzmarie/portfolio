@@ -97,6 +97,7 @@ body {
 .mainTitle {
   color: #3c3635;
   text-align: center;
+  justify-content: center;
 }
 /* .Section {
   display: flex;
@@ -141,7 +142,7 @@ body {
 }
 
 /* w3 schools resource */
-#weatherImg:hover {
+.kawaiiCloudy:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
