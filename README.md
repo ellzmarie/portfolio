@@ -13,7 +13,7 @@
 
 
 ## Wireframe 
-![image](wireframeWip.png)
+![image](img/portfolio-wireframe.png)
 
 ## Time/Priority Matrix 
 #### MVP 
