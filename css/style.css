@@ -159,6 +159,10 @@ body {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
+.projectTemplate:hover {
+  transform: rotate(20deg);
+}
+
 /* w3 schools resource */
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
