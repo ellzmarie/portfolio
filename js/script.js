@@ -6,7 +6,7 @@ const getTemp = document.querySelector("#temp")
 submitBtn.addEventListener("click", (e) => {
     e.preventDefault()
     console.log(inputBox.value)
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inputBox.value}&units=imperial&appid=a900b9c844bb20ffaaf85e81c6058302`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputBox.value}&units=imperial&appid=a900b9c844bb20ffaaf85e81c6058302`)
     .then((res) => res.json())
     .then((data) => {
     weatherForCity.innerText = "Current City: " + data.name 
