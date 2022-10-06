@@ -20,9 +20,9 @@
 
 | Component | Priority  | Estimated Time  | Actual Time | 
 | ------- | --- | --- | ------- |
-| Hamburger Menu	 | H | 1hr | hr | 
+| Top Navbar Menu	 | H | 1hr | hr | 
 | Project Previews	 | H | 3hrs | hr | 
-| Regular Nav	 | H | 1hr | hr | 
+| Color palette	 | H | 1hr | hr | 
 | Adding Form	 | H | 1.5hrs | hr | 
 | Other sections and flex	 | M | 3hrs | hr | 
 | Working with API	 | H | 3hrs | hr | 
@@ -35,11 +35,11 @@
 | Component | Priority  | Estimated Time  | Actual Time | 
 | ------- | --- | --- | ------- |
 | Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
+| Icon wiggle | L | 1hr | hr |
+| Banner | M | 4hr | hr |
 | Materialize | H | 4hr | -hr | hr |
 | Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
+| Put text over banner image | L | 4hr | hr |
 | Total | H | 20hrs| hrs |
 
 ## Additional Libraries Used 
