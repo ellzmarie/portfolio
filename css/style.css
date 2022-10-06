@@ -212,10 +212,15 @@ hr.solid {
 }
 
 /* WEATHER APP*/
-.weatherApp > .city, .degrees, .img {
+.weatherApp > .degrees {
   text-align: center;
-  font-size: 18px; 
+  font-size: 20px; 
 }
+.weatherApp > .city {
+  text-align: center;
+  font-size: 20px; 
+}
+
 .kawaiiCloudy {
   display: block;
   margin-left: auto;
