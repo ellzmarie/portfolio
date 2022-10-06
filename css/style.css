@@ -140,7 +140,7 @@ body {
   justify-content: center; 
 }
 .flexText {
-  width: 55%;
+  width: auto;
   font-size: 30px;
   text-align: center;
 }
