@@ -1,6 +1,6 @@
 # Ella's Portfolio 
 
-Here's a link to my portfolio: https://ellzmarie.github.io/
+Here's a link to my live portfolio: https://ellzmarie.github.io/
 
 ## Project Schedule 
 
